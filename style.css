@@ -1,0 +1,282 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.overall {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    align-items: right;
+    justify-content: space-between;
+    padding: 30px;
+    background: #100f0f;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Apply styles to the links within the navigation */
+nav ul li a {
+    color: #f2d6d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    color: #2707ab; /* Change text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    background-color: #dedff4; /* Change background color on hover */
+    border-radius: 5%; /* Add rounded corners on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+    
+.logo {
+    object-fit:cover;
+    overflow: hidden;
+    width: 6%;
+}
+
+
+
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+
+h1.success {
+    background-color: #050f01f6; /* Background color for the highlight */
+    color: rgb(217, 216, 223); /* Text color for the highlight */
+    border-style: solid;
+    text-align: center;
+
+}
+
+.achievements{
+    width: 90%;
+}
+
+.image1 {
+    width:65%;
+    border-style:solid;
+    border:goldenrod;
+}
+
+.image2 {
+    width:100%;
+    border-style:solid;
+    border:goldenrod;
+}
+
+.image3 {
+    width:69%;
+    border-style:solid;
+    border:goldenrod;
+}
+
+.image4 {
+    width:72%;
+    border-style:solid;
+    border:goldenrod;
+}
+
+.image5 {
+    width:65%;
+    border-style:solid;
+    border:goldenrod;
+
+}
+
+.button{
+    list-style: none;
+}
+
+
+.more {
+    color:rgba(1, 0, 9, 0.952);
+    margin: 5%;
+}
+
+
+.achievements {
+  display: inline-flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+  margin-left: 0%;
+  margin-top:0%;  
+  flex: 1 0 0;
+  padding: 1px;
+  text-align: center; 
+}
+
+.Myself h1{
+    font-size: 50px;
+    font-family: cursive;
+    color:black;
+    margin-bottom: 25px;
+}
+
+
+.images {
+width: 50%;
+height: 80%;
+position: absolute;
+bottom: 0;
+right: 100px;
+
+}
+
+
+#containerall {
+display: flex;
+align-content: center;
+justify-content: center;
+padding: 1%;
+}
+
+
+#containerall div{
+    background-color: pink;
+    align-items:center;
+    margin:20px;
+    width:100%;
+    
+}
+
+
+
+
+
+
+
+
+.Myself a{
+    background: rgb(226, 24, 102);
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight:bold;
+    color: pink;
+    display:inline-block;
+    bottom: 15%;
+    margin: 22px 0;
+    margin: 38px 0;
+    list-style: none;
+    border-radius: 10px;
+
+}
+
+footer{
+    background-color: black;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialicons{
+    display:flex;
+    justify-content:center;
+}
+
+.socialicons a{
+    text-decoration:none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border: radius 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover effect on social media icon*/
+
+.socialicons a:hover {
+    background-color: #b60c2e;
+    transition:0.5s;
+}
+
+.footernav ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.3 em;
+    opacity:0.7;
+    transition: 0.5s;
+}
+ 
+.footernav ul li a:hover{
+    opacity: 1;
+    background-color: #2fd50a;
+}
+
+
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity:0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+
+  /* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+
+
+  /* Small smartphones - h1.success change color */
+  @media screen and (max-width: 642px) {
+    h1.success {
+      background-color: #a50cc1;
+
+
+/* Tablets - footer changes color */
+  @media screen and (max-width:552px) {
+    footerBottom{
+        color: #0cb64a;
+   }
+ }
